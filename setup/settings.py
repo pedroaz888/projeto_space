@@ -125,7 +125,7 @@ USE_TZ = True
 #teste
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static','setup/static'),
+    os.path.join(BASE_DIR, 'setup/static'),
 ]
 
 STATIC_URL = '/static/'
