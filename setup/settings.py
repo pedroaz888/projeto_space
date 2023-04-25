@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'usuarios',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://aluraspace-production.up.railway.app']  
+CSRF_TRUSTED_ORIGINS = ['https://aluraspace-production.up.railway.app']
 
 
 MIDDLEWARE = [
