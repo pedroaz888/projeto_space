@@ -125,11 +125,11 @@ USE_TZ = True
 #teste
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'setup/static'),
+    os.path.join(BASE_DIR, 'static','setup/static'),
 ]
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'templates')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
@@ -141,14 +141,3 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-""" STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'setup/static'),
-]
-# Caminho raiz do diretório 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-
-# Media
-
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
-MEDIA_URL = "/media/" """
