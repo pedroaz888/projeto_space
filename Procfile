@@ -1,4 +1,4 @@
-web: gunicorn setup.wsgi.application --log-file -
+web: gunicorn setup.wsgi --log-file -
 
 
 
