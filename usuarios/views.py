@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 from django.contrib import auth
 from django.contrib import messages
 
+
 def login(request):
     form = LoginForms()
 
@@ -59,3 +60,4 @@ def logout(request):
     auth.logout(request)
     messages.success(request, 'Logout efetuado com sucesso!')
     return redirect('login')
+
