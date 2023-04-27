@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'setup.wsgi.application'
 } """
 
 
-    DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
